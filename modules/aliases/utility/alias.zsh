@@ -7,7 +7,7 @@ alias mv='mv -i'
 alias p='${PAGER}'
 alias rm='rm -i'
 
-alias ll='ls --color=auto -F'
+alias ll='ls -G -F'
 alias l='ll -lh'
 alias lr='l -R'
 alias la='l -A'
