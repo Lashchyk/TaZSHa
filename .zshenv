@@ -1,6 +1,5 @@
 TAZSHADIR="${ZDOTDIR:-$HOME}"
 
-export APP_BUNDLE_PATH="$HOME/Library/Developer/Xcode/DerivedData/DieWeltiPad-fvhosmklvtveybaxvaxqdtxdsekf/Build/Products/Debug-iphonesimulator/DieWeltiPad-cal.app"
 export BROWSER="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 export EDITOR="vim"
 export GCC_COLORS="error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01"
@@ -11,6 +10,3 @@ export PAGER="less"
 export TERM="xterm-256color"
 [ -n "$TMUX" ] && export TERM="xterm-256color"
 export VISUAL="$EDITOR"
-
-alias be='bundle exec'
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

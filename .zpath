@@ -3,16 +3,11 @@
 typeset -gU cdpath fpath mailpath path
 
 path=(
-    "$HOME/.rvm/gems/ruby-2.4.1/bin"
     "/usr/lib/ccache/bin"
     "/usr/local/bin"
-    "/usr/local/Cellar/node"
     "/usr/bin"
     "/bin"
     "/usr/sbin"
     "/sbin"
-    "/Library/TeX/texbin"
-    "$HOME/Library/Android/sdk/platform-tools"
-    "$HOME/Library/Android/sdk/tools"
     $path
 )
